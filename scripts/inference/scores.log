@@ -1,0 +1,55 @@
+MALE
+
+[0]
+Loaded checkpoint '../../checkpoints/glow/male/G_200.pth' (iteration 200)
+Loading '../../checkpoints/hifi/male/g_00050000'
+
+#utterances: 515
+Average: 0.2536 ± 0.0600 [f0-RMSE]
+
+#utterances: 515
+Average: 12.0592 ± 0.8002 [MCD]
+
+
+[1]
+Loaded checkpoint '../../checkpoints/glow/male/G_300.pth' (iteration 300)
+Loading '../../checkpoints/hifi/male/g_00056000'
+
+utterances: 515
+Average: 0.2493 ± 0.0689 [f0-RMSE]
+
+#utterances: 515
+Average: 10.6360 ± 1.3439 [MCD]
+
+[2]
+Loaded checkpoint '../../checkpoints/glow/male/G_340.pth' (iteration 300)
+Loading '../../checkpoints/hifi/male/g_00056000'
+utterances: 515
+Average: 0.2486 ± 0.0674 [f0-RMSE]
+
+utterances: 515
+Average: 10.3347 ± 1.0397 [MCD]
+
+
+FEMALE
+
+[0]
+Loaded checkpoint '../../checkpoints/glow/female/G_170.pth' (iteration 170)
+Loading '../../checkpoints/hifi/female/g_00050000'
+
+#utterances: 456
+Average: 0.4490 ± 0.1948 [f0-RMSE]
+
+utterances: 456
+Average: 13.5029 ± 1.7610 [MCD]
+
+
+[1]
+Loaded checkpoint '../../checkpoints/glow/female/G_300.pth' (iteration 300)
+Loading '../../checkpoints/hifi/female/g_00051000'
+
+#utterances: 456
+Average: 0.3480 ± 0.1236 [f0-RMSE]
+
+utterances: 456
+Average: 10.9829 ± 0.9728 [MCD]
