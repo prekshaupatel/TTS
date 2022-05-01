@@ -1,7 +1,7 @@
 rm -rf female_results.txt
 
 i=0
-for FILE in ../vakyansh-tts/data/ml_female/wav/*	  
+for FILE in ../data/ml_female/wav/*	  
 do
     ((i++))
     if [[ $(( $i % 20 )) == 0 ]]

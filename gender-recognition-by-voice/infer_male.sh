@@ -1,7 +1,7 @@
 rm -rf male_results.txt
 
 i=0
-for FILE in ../vakyansh-tts/data/ml_male/wav/*	  
+for FILE in ../data/ml_male/wav/*	  
 do
     ((i++))
     if [[ $(( $i % 20 )) == 0 ]]
