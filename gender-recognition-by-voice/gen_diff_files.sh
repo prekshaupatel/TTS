@@ -1,0 +1,2 @@
+cat new_results.txt | awk -F '/' '{print $6}' | awk -F '%' '{print $1, $2, $3}' | awk '{if (($4 > 70)) print $1, "Male"; else if (($6 > 70))  print $1, "Female"}' | grep 'Male' | awk '{print $1}' > new_male_list.txt
+cat new_results.txt | awk -F '/' '{print $6}' | awk -F '%' '{print $1, $2, $3}' | awk '{if (($4 > 70)) print $1, "Male"; else if (($6 > 70))  print $1, "Female"}' | grep 'Female' | awk '{print $1}' > new_female_list.txt
